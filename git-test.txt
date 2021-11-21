@@ -3,3 +3,7 @@ test github
 second test to see everything is working -> commit "0"
 
 third test to see everything is working -> commit "1"
+
+FAST_REFRESH=true
+SKIP_PREFLIGHT_CHECK=true
+CHOKIDAR_USEPOLLING=true

@@ -9,20 +9,20 @@ const Sidebar = ({ isOpen, toggle }) => {
             </Icon>
             <SidebarWrapper>
                 <SidebarMenu>
-                    <SidebarLink to="about">
+                    <SidebarLink onClick={toggle} to="about">
                         About
                     </SidebarLink>
-                    <SidebarLink to="discover">
+                    <SidebarLink onClick={toggle} to="discover">
                         Discover
                     </SidebarLink>
-                    <SidebarLink to="services">
+                    <SidebarLink onClick={toggle} to="services">
                         Services
                     </SidebarLink>
-                    <SidebarLink to="media">
+                    <SidebarLink onClick={toggle} to="media">
                         Media
                     </SidebarLink>
                     <SideBtnWrap>
-                        <SidebarRoute to="/connect">Connect Wallet</SidebarRoute>
+                        <SidebarRoute onClick={toggle} to="/connect">Connect Wallet</SidebarRoute>
                     </SideBtnWrap>
                 </SidebarMenu>
             </SidebarWrapper>

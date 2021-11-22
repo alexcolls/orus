@@ -71,7 +71,7 @@ export const SideBtnWrap = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 25%;
+    margin-top: 15%;
 `;
 
 export const SidebarRoute = styled(LinkR)`

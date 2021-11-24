@@ -1,8 +1,9 @@
 import styled from 'styled-components';
 import { MdArrowForward, MdKeyboardArrowRight } from 'react-icons/md';
+import { COLORS } from '../Colors';
 
 export const HeroContainer = styled.div`
-    background: #0c0c0c;
+    background: ${COLORS.black};
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,7 +40,7 @@ export const VideoBg = styled.video`
     height: 100%;
     -o-object-fit: cover;
     object-fit: cover;
-    background: #232a34;
+    background: ${COLORS.grey};
 `;
 
 export const HeroContent = styled.div`
